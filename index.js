@@ -10,7 +10,7 @@ const followEngineStrict = () => {
         process.exit(1)
     }
 
-    if (eniginesNode.match(/^\d[\d.]+?\d$/) === null) {
+    if (eniginesNode.match(/^\d[\d.]*?$/) === null) {
         console.error('package.json needs engines.node. and its version must be static.');
         process.exit(1)
     }
