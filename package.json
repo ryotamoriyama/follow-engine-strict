@@ -1,0 +1,19 @@
+{
+  "name": "follow-engine-strict",
+  "version": "0.0.5",
+  "description": "When run `npm build` or another js commands with different node version, this package will exit the process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryotamoriyama/follow-engine-strict.git"
+  },
+  "author": "Ryota Moriyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryotamoriyama/follow-engine-strict/issues"
+  },
+  "homepage": "https://github.com/ryotamoriyama/follow-engine-strict#readme"
+}
